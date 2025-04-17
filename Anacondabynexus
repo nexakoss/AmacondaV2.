@@ -1,0 +1,164 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "anaconda gui by Nexus",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "anaconda Gui  By Nexus_X11",
+   LoadingSubtitle = "Anaconda V2",
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Nexus"
+   }
+})
+local Tab = Window:CreateTab("Brookhaven", 4483362458) -- Title, Image
+local Label = Tab:CreateLabel("If theres bugs at the script send me dm Nexakosss", 4483362458, Color3.fromRGB(FF, 00, 00), false) -- Title, Icon, Color, IgnoreTheme
+local Button = Tab:CreateButton({
+   Name = "sander X (Brookhaven Rp)",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewVersion/main/sanderX')))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "SP HUB",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "DARKONESS",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "backdoor",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "NexusSploits",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nexakoss/Nexus-executor/refs/heads/main/NexusSploits"))();
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "infinity yield",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fly gui by nexus",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nexakoss/Nexusfly/refs/heads/main/NexusflyGui"))();
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "mango hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "JG HUB",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/joygril/Brookhaven-RP-JG-Hub/refs/heads/main/Developer-Jeon-Cains.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "eazvy Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "sky hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "TrollX hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/TrollX40%2540%25409%25409%25409%25409%25409"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "System Broken",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "ghost hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/JMW1DqSY/raw"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "rochips loaders",
+   Callback = function()
+if "you wanna use rochips universal" then
+    local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+    local im,lonely,z_c=task.wait,game,loadstring
+    z_c(lonely:HttpGet(z_z..""..z_x))()
+    return ("This will load in about 5 - 59 seconds" or "according to your device and executor")
+end
+   end,
+})
+local Tab = Window:CreateTab("Prison life", 4483362458) -- Title, Image
+local Label = Tab:CreateLabel("for suggestions sent the owner dm Dc:Nexakosss", 4483362458, Color3.fromRGB(FF, 00, 00), false) -- Title, Icon, Color, IgnoreTheme
+local Button = Tab:CreateButton({
+   Name = "Prison lufe script",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheMugenKing/Prison-Life/refs/heads/main/Update",true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Best admin script",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EnesXVC/Games-Scripts/main/Prison-Life-Prizz-Life"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "prisonWare",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "H4X SCRIPT",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/QLtH2v8i'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "darkones prison life script",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Prison%20Life%20GUI'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "SynixX",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RayzMd/SyniX/main/Beta"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Exynus Esp",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Exunys-ESP/main/src/ESP.lua"))()
+   end,
+})
+local Tab = Window:CreateTab("Brookhaven", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "sander X (Brookhaven Rp)",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewVersion/main/sanderX')))()
+   end,
